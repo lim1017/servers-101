@@ -1,0 +1,8 @@
+<% if (dog) { %>
+  <h1><%= dog.name %></h1>
+  <h2><%= dog.favFood %></h2>
+  <h3><%= dog.quirkyFact %></h3>
+  <img src="<%= dog.imageUrl %>" alt="">
+<% } else { %>
+  <h1>That's not a dog we know!</h1>
+<% } %>
